@@ -1,0 +1,21 @@
+
+// Discharge default stylesheet
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// Use fron-family
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@import 'global';
+
+@import 'header';
+
+@import 'product';

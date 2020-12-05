@@ -1,0 +1,79 @@
+// Общий контейнер
+
+.container{
+    max-width:1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+
+// Кнопки
+
+.btn--blue{
+    font-size:14px;
+    color:#fff;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #34AADD;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        background: #6680AE;
+    }
+}
+
+
+.btn--white{
+    display: block;
+    font-size:14px;
+    font-weight: 500;
+    background: #fff;
+    color:#34AADD;
+    border:1px solid #34AADD;
+    border-radius:6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        color:#6680AE;
+        border-color: #6680AE;
+    }
+}
+
+
+// Заголовки
+
+.title--section{
+    font-size:36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#121920;  
+}
+
+
+
+// Теги на карточках
+
+.tag--action,.tag--hit,.tag--good-price{
+    text-decoration: none;
+    color:#fff;
+    padding:5px 10px;
+    font-size:14px;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    &:last-child{
+        margin-right: 0px;
+    }
+}
+.tag--action{
+    background: #FAC300;
+}
+.tag--hit{
+    background: #DC2C53;
+}
+.tag--good-price{
+    background: #A7507B;
+}

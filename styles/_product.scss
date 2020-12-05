@@ -1,0 +1,120 @@
+.product{
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__title{
+        padding:90px 0px 50px;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        height: 372px;
+        justify-content: space-between;
+        width:100%;
+        margin-bottom: 30px;
+    }
+    &__item{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width:270px;
+        height: 372px;  
+        border-radius: 6px;
+    }
+    &__item-img{
+        max-width: 270px;
+        max-height: 174px;
+        img{
+            
+            display: block;
+            max-width:100%;
+            height: auto;
+        }
+    }
+    &__item-title{
+        color:#121920;
+        font-size:18px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    &__item-subtitle{
+        font-weight: 400;
+        font-size:14px;
+        color:#768298;
+        line-height: 22px;
+        margin-bottom: 7px;
+    }
+    &__item-content{
+        max-width:270px;
+        max-height: 198px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #EBEBF1;
+        border-radius: 0px 0px 6px 6px;
+        border-top: none;
+        padding:10px;
+    }
+    &__item-bottom{
+        .old-price{
+            span{
+                font-size:14px;
+                color:#768298;
+                position: relative;
+                
+                &::before{
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 3px;
+                    top: 50%;
+                    left: 0;
+                    background: red;
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(20deg);
+                }
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__item-price{
+        p{
+            margin-top: 2px;
+            font-weight: 700;
+        }
+    }
+    &__item-btn{
+        border-radius: 6px;
+        padding:12px;
+        
+        background: #34AADD;
+        img{
+            
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+
+
+    &__item-tags{
+        position: absolute;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    
+
+    &__btn{
+        padding:18px 30px;
+    }
+}
