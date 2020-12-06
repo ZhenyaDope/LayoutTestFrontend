@@ -29,7 +29,7 @@
     display: block;
     font-size:14px;
     font-weight: 500;
-    background: #fff;
+    background: none;
     color:#34AADD;
     border:1px solid #34AADD;
     border-radius:6px;
@@ -76,4 +76,23 @@
 }
 .tag--good-price{
     background: #A7507B;
+}
+
+
+// Фоны 
+
+.bg--blue{
+    background: #34AADD;
+}
+
+.bg--purple{
+    background: #A7507B;
+}
+
+.bg--dark-blue{
+    background: #6680AE;
+}
+
+.bg--red{
+    background: #F95A59;
 }
